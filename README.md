@@ -144,19 +144,7 @@ DeepFakeImg/
 │   ├── For Aftab/                     #   Shared with collaborator
 │   └── Deep_Fake (7).pdf, (9).pdf    #   Reference papers
 │
-├── 1st_Try/                           # Initial experiments
-│   ├── DeepFakeImg.ipynb              #   First deepfake detection attempt
-│   ├── Fixed3Model30epoch.ipynb       #   3 models, 30 epochs
-│   ├── RunningHybridModel.ipynb       #   Hybrid model experiments
-│   ├── Own.ipynb                      #   Custom CNN approach
-│   ├── CV_Template_Kimi2.ipynb        #   Computer vision template
-│   ├── WithUpdated Data Lodaaer.ipynb #   Data loader improvements
-│   ├── DFImg.ipynb                    #   Another experiment
-│   └── Hybrid/                        #   HEACNN hybrid model code
-│       └── heacnn_hybrid_model.py
-│
-├── Dataset2 Using/                    # Dataset-2 experiments
-│   └── NN_Deepfake-vs-Real-v2.ipynb   #   Deepfake-vs-Real-v2 notebook
+
 │
 └── sam/                               # SAM optimizer (upstream)
     ├── sam.py                         #   Core SAM implementation
@@ -232,7 +220,7 @@ Experiment reports and visualizations (ROC curves, confusion matrices, PR curves
 ```bibtex
 @inproceedings{shohan2025deepfakedensenet,
   title     = {Optimizing Deepfake Detection through Exploring the Efficacy of Fine-Tuned DenseNet121 in Media Integrity},
-  author    = {Shohan, Md. Shohanur Rahman and others},
+  author    = {Shohan Biswas, Md. and others},
   booktitle = {Proceedings of BIM 2025},
   year      = {2025}
 }
@@ -242,4 +230,4 @@ Experiment reports and visualizations (ROC curves, confusion matrices, PR curves
 
 ## Contact
 
-**Md. Shohanur Rahman Shohan** — [GitHub](https://github.com/5H0HAN)
+**Md. Shohan Biswas** — [GitHub](https://github.com/5H0HAN)

@@ -45,10 +45,6 @@ Desktop.ini
 *.7z
 *.rar
 
-# CIFAR-10 binary data (large)
-1st_Try/data/cifar-10-batches-py/
-1st_Try/data/cifar-10-python.tar.gz
-
 # Temp
 tmp/
 temp/
