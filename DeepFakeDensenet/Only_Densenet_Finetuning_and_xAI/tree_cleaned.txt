@@ -1,0 +1,180 @@
+Folder PATH listing
+Volume serial number is 00000018 10C2:9FC7
+C:\USERS\SHOHAN\DESKTOP\DEEPFAKEIMG\MYLEARNING
+|   config.json
+|   DataLoadingValidation.ipynb
+|   Deepfake_Classifyer_NN.ipynb
+|   Deep_Fake (7).pdf
+|   Deep_Fake (9).pdf
+|   df_face.jpg
+|   org.jpg
+|   org.png
+|   output.txt
+|   PytorchYT Tutorial.ipynb
+|   Results to generate.txt
+|   
++---.ipynb_checkpoints
+|       DataLoadingValidation-checkpoint.ipynb
+|       
++---artifacts
+|   +---20250821-221555
+|   |       config.json
+|   |       config_hash.txt
+|   |       
+|   +---20250821-222311
+|   |       config.json
+|   |       config_hash.txt
+|   |       
+|   \---20250821-224300
+|           config.json
+|           config_hash.txt
+|           
++---dataset
+|   |   README.md
+|   |   
+|   +---.ipynb_checkpoints
+|   |       README-checkpoint.md
+|   |       
+|   +---test
+|   |   +---fake
+|   |   |   |   0.jpg
+|   |   |   |   0.png
+|   |   |   |   000 (1).png
+|   |   |   |   000 (10).png
+|   |   |   |   000 (11).png
+|   |   |   |   000 (12).png
+|   |   |   |   000 (13).png
+|   |   |   |   000 (14).png
+|   |   |   |   000 (15).png
+|   |   |   |   000 (16).png
+|   |   |   |   000 (17).png
+|   |   |   |   000 (18).png
+|   |   |   |   000 (19).png
+|   |   |   |   000 (2).png
+|   |   |   |   000 (20).png
+|   |   |   |   000 (21).png
+|   |   |   |   000 (22).png
+|   |   |   |   000 (23).png
+|   |   |   |   000 (24).png
+|   |   |   |   000 (25).png
+|   |   |   |   000 (26).png
+|   |   |   |   000 (27).png
+|   |   |   |   000 (28).png
+|   |   |   |   000 (29).png
+|   |   |   |
+|   |   |   |   000_83.png
+|   |   |   |   000_84.png
+|   |   |   |   000_85.png
+|   |   |   |   000_86.png
+|   |   |   |   000_87.png
+... (406 more files hidden)
+|   |   |   |   
+|   |   |   \---.ipynb_checkpoints
+|   |   |           000 (1)-checkpoint.png
+|   |   |           
+|   |   \---real
+|   |           0.jpg
+|   |           000.png
+|   |           00000000.png
+|   |           00000000_1.png
+|   |           00000000_10.png
+... (1601 more files hidden)
+|   |           
+|   +---train
+|   |   +---fake
+|   |   |       00091.jpg
+|   |   |       00092.jpg
+|   |   |       00093.jpg
+|   |   |       00094.jpg
+|   |   |       00095.jpg
+... (12843 more files hidden)
+|   |   |       
+|   |   \---real
+|   |           00000053_33.png
+|   |           00000053_34.png
+|   |           00000053_35.png
+|   |           00000053_36.png
+|   |           00000053_37.png
+... (6907 more files hidden)
+|  
+
+
+|      
++---ensemble_results
+|       all_param.txt
+|       best_metrics.txt
+|       confusion_matrix.png
+|       final_best_model.pth
+|       roc_curve.png
+|       
+\---experiments
+    |   Deepfake_Classifyer_NN_Before.ipynb
+    |   
+    +---densenet121_builder_20250717_184816
+    |   |   best_model.pth
+    |   |   config.json
+    |   |   last_model.pth
+    |   |   ROC_Curve.png
+    |   |   test_confusion_matrix.png
+    |   |   test_pr_curve.png
+    |   |   test_report.json
+    |   |   training_history.json
+    |   |   training_metrics.png
+    |   |   val_confusion_matrix.png
+    |   |   val_pr_curve.png
+    |   |   val_report.json
+    |   |   
+    |   \---logs
+    |           events.out.tfevents.1752756496.DESKTOP-1DHSPD8.6460.0
+    |           
+    +---efficientnetb0_builder_20250716_173937
+    |   |   best_model.pth
+    |   |   config.json
+    |   |   last_model.pth
+    |   |   ROC_Curve.png
+    |   |   test_confusion_matrix.png
+    |   |   test_pr_curve.png
+    |   |   test_report.json
+    |   |   training_history.json
+    |   |   training_metrics.png
+    |   |   val_confusion_matrix.png
+    |   |   val_pr_curve.png
+    |   |   val_report.json
+    |   |   
+    |   \---logs
+    |           events.out.tfevents.1752665977.DESKTOP-1DHSPD8.12220.0
+    |           
+    +---mobilenetv3_builder_20250718_235331
+    |   |   best_model.pth
+    |   |   config.json
+    |   |   last_model.pth
+    |   |   ROC_Curve.png
+    |   |   test_confusion_matrix.png
+    |   |   test_pr_curve.png
+    |   |   test_report.json
+    |   |   training_history.json
+    |   |   training_metrics.png
+    |   |   val_confusion_matrix.png
+    |   |   val_pr_curve.png
+    |   |   val_report.json
+    |   |   
+    |   \---logs
+    |           events.out.tfevents.1752861211.DESKTOP-1DHSPD8.10304.0
+    |           
+    \---resnet50_builder_20250717_025348
+        |   best_model.pth
+        |   config.json
+        |   last_model.pth
+        |   ROC_Curve.png
+        |   test_confusion_matrix.png
+        |   test_pr_curve.png
+        |   test_report.json
+        |   training_history.json
+        |   training_metrics.png
+        |   val_confusion_matrix.png
+        |   val_pr_curve.png
+        |   val_report.json
+        |   
+        \---logs
+                events.out.tfevents.1752699228.DESKTOP-1DHSPD8.9668.0
+                

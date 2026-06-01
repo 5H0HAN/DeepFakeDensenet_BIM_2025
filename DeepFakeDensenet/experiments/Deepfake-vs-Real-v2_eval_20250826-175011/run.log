@@ -1,0 +1,11 @@
+Artifacts dir : experiments\Deepfake-vs-Real-v2_eval_20250826-175011
+Model path    : C:\Users\Shohan\Desktop\DeepFakeImg\DeepFakeDensenet\experiments\densenet121_builder_20250822_200530\checkpoints\densenet121_builder_20250822_200530\full_model.pth
+[SmartLoad] kept=725  missing=2  unexpected=2
+
+=== Evaluation Summary ===
+Samples     : 19291
+Accuracy    : 0.5976
+ROC-AUC     : 0.6441728624615235
+PR-AP       : 0.6132667782079386
+Artifacts   : experiments\Deepfake-vs-Real-v2_eval_20250826-175011
+Preds CSV   : experiments\Deepfake-vs-Real-v2_eval_20250826-175011\preds.csv

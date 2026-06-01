@@ -1,0 +1,31 @@
+{
+  "model_name": "Densenet121_Builder",
+  "img_size": 256,
+  "optimizer_type": [
+    "Adam"
+  ],
+  "criterion_type": "CrossEntropyLoss",
+  "train_dataset": "C:\\Users\\Shohan\\Desktop\\DeepFakeImg\\MyLearning\\dataset\\train",
+  "test_dataset": "C:\\Users\\Shohan\\Desktop\\DeepFakeImg\\MyLearning\\dataset\\test",
+  "val_dataset": "C:\\Users\\Shohan\\Desktop\\DeepFakeImg\\MyLearning\\dataset\\val",
+  "data_class_names": {
+    "0": "fake",
+    "1": "real"
+  },
+  "num_epochs": 30,
+  "device_name": "cuda",
+  "scheduler_name": "ReduceLROnPlateau",
+  "augment": true,
+  "train_losses": [],
+  "val_losses": [],
+  "train_accuracies": [],
+  "val_accuracies": [],
+  "timestamp": "20250717_184816",
+  "exp_name": "densenet121_builder_20250717_184816",
+  "exp_dir": "experiments\\densenet121_builder_20250717_184816",
+  "model_path": "experiments\\densenet121_builder_20250717_184816\\best_model.pth",
+  "last_model_path": "experiments\\densenet121_builder_20250717_184816\\last_model.pth",
+  "log_dir": "experiments\\densenet121_builder_20250717_184816\\logs",
+  "save_top_k": 3,
+  "history_path": "experiments\\densenet121_builder_20250717_184816\\history.json"
+}

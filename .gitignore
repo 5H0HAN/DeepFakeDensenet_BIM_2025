@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Dataset image files (large)
+**/dataset/**
+**/Deepfake-vs-Real-v2/**
+**/test/**
+**/train/**
+**/val/**
+
+# Model checkpoints & weights
+*.pth
+*.joblib
+*.pt
+checkpoints/
+
+# Experiment logs
+**/logs/
+
+# TensorBoard
+events.out.tfevents.*
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# OS files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# CIFAR-10 binary data (large)
+1st_Try/data/cifar-10-batches-py/
+1st_Try/data/cifar-10-python.tar.gz
+
+# Temp
+tmp/
+temp/
+
+

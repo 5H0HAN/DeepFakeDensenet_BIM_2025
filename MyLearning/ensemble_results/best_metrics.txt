@@ -1,0 +1,9 @@
+--- Final Ensemble Model Metrics ---
+Accuracy: 0.9567
+AUC: 0.9982
+F1-Score (Deepfake): 0.9550
+F1-Score (Real): 0.9583
+Precision (Deepfake): 0.9953
+Precision (Real): 0.9237
+Recall (Deepfake): 0.9179
+Recall (Real): 0.9956

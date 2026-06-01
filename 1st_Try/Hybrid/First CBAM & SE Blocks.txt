@@ -1,0 +1,48 @@
+import torch
+import torch.nn as nn
+from torchvision import models
+
+# CBAM Block
+class CBAMBlock(nn.Module):
+    def __init__(self, channels, reduction=16, kernel_size=7):
+        super(CBAMBlock, self).__init__()
+        self.channel_attention = nn.Sequential(
+            nn.AdaptiveAvgPool2d(1),
+            nn.Conv2d(channels, channels // reduction, 1, bias=False),
+            nn.ReLU(),
+            nn.Conv2d(channels // reduction, channels, 1, bias=False),
+            nn.Sigmoid()
+        )
+        self.spatial_attention = nn.Sequential(
+            nn.Conv2d(2, 1, kernel_size=kernel_size, padding=kernel_size // 2, bias=False),
+            nn.Sigmoid()
+        )
+
+    def forward(self, x):
+        # Channel attention
+        ca = self.channel_attention(x)
+        x = x * ca
+
+        # Spatial attention
+        avg_out = torch.mean(x, dim=1, keepdim=True)
+        max_out, _ = torch.max(x, dim=1, keepdim=True)
+        sa = torch.cat([avg_out, max_out], dim=1)
+        sa = self.spatial_attention(sa)
+        x = x * sa
+        return x
+
+# SE Block (for VGG)
+class SEBlock(nn.Module):
+    def __init__(self, channels, reduction=16):
+        super(SEBlock, self).__init__()
+        self.se = nn.Sequential(
+            nn.AdaptiveAvgPool2d(1),
+            nn.Conv2d(channels, channels // reduction, 1),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(channels // reduction, channels, 1),
+            nn.Sigmoid()
+        )
+
+    def forward(self, x):
+        w = self.se(x)
+        return x * w

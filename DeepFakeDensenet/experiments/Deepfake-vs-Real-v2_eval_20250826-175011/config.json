@@ -1,0 +1,19 @@
+{
+  "dataset_root": "C:\\Users\\Shohan\\Desktop\\DeepFakeImg\\DeepFakeDensenet\\Deepfake-vs-Real-v2",
+  "folder_to_canon": {
+    "fake": "fake",
+    "real": "real"
+  },
+  "class_to_index": {
+    "fake": 0,
+    "real": 1
+  },
+  "img_size": 256,
+  "batch_size": 64,
+  "num_workers": 0,
+  "seed": 1337,
+  "device": "cuda",
+  "resolved_model": "C:\\Users\\Shohan\\Desktop\\DeepFakeImg\\DeepFakeDensenet\\experiments\\densenet121_builder_20250822_200530\\checkpoints\\densenet121_builder_20250822_200530\\full_model.pth",
+  "threshold": 0.5,
+  "transform": "val_test_transform"
+}
