@@ -1,5 +1,7 @@
 # DeepFake Detection on Digital Face Image Using Fine-Tuned DenseNet-121
 
+**Md Shohan Biswas**
+
 **Presented at BIM 2025 Conference**
 
 [![GitHub](https://img.shields.io/badge/GitHub-5H0HAN%2FDeepFakeDensenet_BIM_2025-blue)](https://github.com/5H0HAN/DeepFakeDensenet_BIM_2025)
