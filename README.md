@@ -47,15 +47,12 @@ Classes: `fake` (0), `real` (1)
 
 ## Architectures Evaluated
 
-| Model | Accuracy | AUC | F1 | Precision | Recall |
-|-------|----------|-----|----|-----------|--------|
-| **EfficientNet-B0** | **94.93%** | 0.9962 | 0.9492 | 0.9528 | 0.9493 |
-| ResNet-50 | 92.81% | 0.9902 | 0.9279 | 0.9337 | 0.9281 |
-| MobileNetV3 | 92.59% | 0.9969 | 0.9256 | 0.9347 | 0.9259 |
-| **DenseNet-121 (Fine-Tuned)** | **97.32%** | **0.99** | — | — | — |
-| **Ensemble (Final)** | **95.67%** | **0.9982** | 0.9567 | 0.9595 | 0.9567 |
-
-Total parameters: **13,272,016**
+| Model | Validation Accuracy | AUC |
+|-------|-------------------|-----|
+| ResNet50 | 92.15% | 98.82% |
+| EfficientNetB0 | 97.32% | 99.44% |
+| MobileNetV3 | 97.32% | 99.77% |
+| **Proposed Model (DenseNet121)** | **97.32%** | **99.82%** |
 
 ### Model Architecture (DenseNet-121)
 
