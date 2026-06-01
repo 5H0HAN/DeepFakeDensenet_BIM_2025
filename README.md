@@ -2,7 +2,7 @@
 
 **Md Shohan Biswas**
 
-**Presented at BIM 2025 Conference**
+**Presented at [3rd International Conference on Big Data, IoT and Machine Learning (BIM 2025)](https://lawngreen-goose-609110.hostingersite.com/)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-5H0HAN%2FDeepFakeDensenet_BIM_2025-blue)](https://github.com/5H0HAN/DeepFakeDensenet_BIM_2025)
 
