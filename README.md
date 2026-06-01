@@ -12,7 +12,7 @@
 
 The conference paper **"Optimizing Deepfake Detection through Exploring the Efficacy of Fine-Tuned DenseNet121 in Media Integrity"** is included in the repository:
 
-- [`Optimizing Deepfake Detection through Exploring  the Efficacy of Fine-Tuned DenseNet121 in Media  Inte (1).pdf`](./Optimizing%20Deepfake%20Detection%20through%20Exploring%20%20the%20Efficacy%20of%20Fine-Tuned%20DenseNet121%20in%20Media%20%20Inte%20(1).pdf)
+- [`Optimizing Deepfake Detection through Exploring  the Efficacy of Fine-Tuned DenseNet121 in Media  Inte.pdf`](./Optimizing%20Deepfake%20Detection%20through%20Exploring%20%20the%20Efficacy%20of%20Fine-Tuned%20DenseNet121%20in%20Media%20%20Inte%20(1).pdf)
 
 ---
 
